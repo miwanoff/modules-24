@@ -3,3 +3,7 @@ export class User {
 		this.name = name;
 	}
 };
+
+export function sayHi() {
+	alert("Hello!");
+};
