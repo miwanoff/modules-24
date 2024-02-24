@@ -4,6 +4,9 @@ export class User {
 	}
 };
 
-export function sayHi() {
-	alert("Hello!");
-};
+export class Student extends User {
+    constructor(name, university) {
+        super(name);
+        this.university = university;
+    }
+}
